@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>test</title>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    	<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="./vendors/bootstrap/css/bootstrap.min.css">
+		<link rel="stylesheet" href="./vendors/bootstrap/css/bootstrap-theme.min.css">
+		<link rel="stylesheet" type="text/css" href="./css/main.css">		
+		<script src="./vendors/less/less.min.js"></script>		
+	</head>
+	<body>
+		<div class="alert alert-warning alert-dismissible" role="alert">
+			<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+				<span aria-hidden="true">&times;</span>
+			</button>
+			<strong>Для полного доступа к системе <b>зарегистрируйтесь бесплатно</b>.</strong>
+			<div class="right">
+				<a href="#">Презентация системы</a>
+				<button type="button" class="btn btn-danger">Зарегистрироваться</button>
+			</div>
+		</div>
+		<header>
+			<p class="logo">
+				<img src="./img/header_logo.png" alt="">
+			</p>
+			<div class="inner">
+				<div class="container-fluid">
+					<div class="row">
+						<nav class="clicks col-md-4">
+							<a href=""><span class="glyphicon glyphicon-flag" aria-hidden="true"></span>RU</a>
+							<a href=""><span class="glyphicon glyphicon-home" aria-hidden="true"></span>Главная</a>
+							<a href=""><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>Контакты</a>
+						</nav>
+						<div class="col-md-6 login container-fluid">
+							<div class="row">
+								<div class="col-md-4 form-group">
+									<label for="loginInput">Логин:</label>
+    								<input type="text" class="form-control" id="loginInput" placeholder="">
+								</div>
+								<div class="col-md-4 form-group">
+									<label for="passwordInput">Пароль:</label>
+    								<input type="password" class="form-control" id="passwordInput" placeholder="">
+								</div>
+								<div class="col-md-4 form-group">
+									<button type="button" class="btn btn-danger">Вход</button>
+									<nav>
+										<a href="#">Регистрация</a>
+										<a href="#">Вспомнить пароль</a>
+									</nav>
+									<nav class="ssl">
+										<a href="#">с SSL</a>
+									</nav>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<nav>
+					<ul>
+						<li class="current"><a href="#">Тендеры</a></li>
+						<li><a href="#">Каталог</a></li>
+						<li><a href="#">Компании</a></li>
+						<li><a href="#">Каталог</a></li>
+						<li><a href="#">Справка</a></li>
+					</ul>
+					<div class="form-group find">
+					    <input type="text" class="form-control" placeholder="Поиск по тендерам" />
+						<button type="button" class="btn btn-danger">Найти</button>
+					</div>
+				</nav>
+			</div>
+		</header>
+
+		<section id="content">
+			<h1><span class="glyphicon glyphicon-file" aria-hidden="true"></span>Регистрация. Шаг 1. Создайте учетную запись<a href="#"><span class="glyphicon glyphicon-question-sign" aria-hidden="true"></span></a></h1>
+			<form>
+				<div class="row">
+					<div class="col-md-2 form-group">
+						<label for="loginInput">Логин:</label>
+					</div>
+					<div class="col-md-4 form-group">
+						<input type="text" class="form-control" id="lognameInput" placeholder="">
+					</div>
+					<div class="col-md-6 form-group">
+						<span class="glyphicon glyphicon-question-sign" aria-hidden="true"></span>
+						<b>не задано обязательное значение</b>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-2 form-group">
+						<label for="loginInput">E-mail:</label>
+					</div>
+					<div class="col-md-4 form-group">
+						<input type="text" class="form-control" id="emailInput" placeholder="name@company.ru">
+					</div>
+					<div class="col-md-6 form-group">
+						<span class="glyphicon glyphicon-question-sign" aria-hidden="true"></span>
+						<b>не задано обязательное значение</b>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-2 form-group">
+						<label for="loginInput">Язык:</label>
+					</div>
+					<div class="col-md-4 form-group">
+						<select class="form-control">
+							<option>Русский</option>
+							<option>English</option>
+						</select>
+					</div>
+					<div class="col-md-6 form-group">
+						<span class="glyphicon glyphicon-question-sign" aria-hidden="true"></span>
+						<b>не задано обязательное значение</b>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-2 form-group">
+						<label for="loginInput">Ф.И.О.:</label>
+					</div>
+					<div class="col-md-4 form-group">
+						<input type="text" class="form-control" id="fullnameInput" placeholder="">
+					</div>
+					<div class="col-md-6 form-group">
+						<span class="glyphicon glyphicon-question-sign" aria-hidden="true"></span>
+						<b>не задано обязательное значение</b>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-2 form-group">
+						<label for="loginInput">Телефон:</label>
+					</div>
+					<div class="col-md-4 form-group">
+						<input type="text" class="form-control" id="phoneInput" placeholder="">
+					</div>
+					<div class="col-md-6 form-group">
+						<span class="glyphicon glyphicon-question-sign" aria-hidden="true"></span>
+						<b>не задано обязательное значение</b>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-2 form-group"></div>
+					<div class="col-md-5 form-group">
+						<input type="checkbox" class="form-control">
+						<p>Я ознакомлен и согласен с <a href="#">правилами работы в системе</a></p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-2 form-group"></div>
+					<div class="col-md-5 form-group">
+						<button type="button" class="btn btn-default">Далее</button>
+					</div>
+				</div>
+			</form>
+		</section>
+
+		<footer>
+			<div class="left">
+				<p>© Tender.Pro 2002-2015</p>
+				<p>E-mail:<a href="#">client@tender.pro</a></p>
+				<p><a href="#">Дизайн сайта: AltSolution</a></p>
+			</div>
+			<div class="right">
+				<a href="#"><span class="glyphicon glyphicon-lock" aria-hidden="true"></span> Безопасность</a>
+			</div>
+		</footer>
+
+		<script src="./vendors/jquery/jquery-1.11.3.min.js"></script>
+		<script src="./vendors/bootstrap/js/bootstrap.min.js"></script>
+	</body>
+</html>
